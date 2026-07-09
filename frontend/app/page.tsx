@@ -39,6 +39,14 @@ export default function Home() {
               the elite circle of cinephiles or login to resume your journey
               into the shadows
             </p>
+            <div className=" relative top-40 flex gap-5" >
+              <button className=" rounded-[5px] text-white tracking-wider select-none bg-red-600 h-12 w-32  ">
+                Sign Up
+              </button>
+              <button className=" rounded-[5px] text-white tracking-wider select-none bg-transparent transition-opacity border h-12 w-32  ">
+                Login
+              </button>
+            </div>
           </div>
         </div>
       </div>
